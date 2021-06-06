@@ -1,0 +1,35 @@
+.homepageWrapper{
+    overflow:hidden;
+    margin-top: 50px;
+    .userList{
+        margin:auto;
+        .tableRow{
+            .header{
+                padding-top: 15px;
+                // padding-right: 30px;
+                // padding-left: 30px;
+                font-weight: bold;
+                font-size: 18px;
+                text-align: center;
+                width: 300px;
+            }
+            .tableData{
+                padding-top: 15px;
+                // padding-right: 30px;
+                // padding-left: 30px;
+                text-align:center;
+                width: 300px;
+            }
+        }
+    }
+    .loadMoreButton{
+        text-align:center;
+        margin: auto;
+        margin-top: 50px;
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 10px 15px 10px 15px;
+        border-radius: 8px;
+    }
+}
